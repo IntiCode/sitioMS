@@ -1,22 +1,28 @@
 import React from 'react'
-import Nav from './../Nav/Nav';
+import './Header.css'
+import logo from '../../assets/INCRO.jpg'
+
 
 const Header = () => {
     return (
-        <>
-            <div style={{ backgroundColor: '#333', padding: '10px', color: '#fff', position: 'sticky', top: 0, zIndex: 1000 }} >
-                Header
-
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
-                    <div>
-                        <h1>Logo</h1>
+        
+            <div className='header'>
+                    <div className='header_logo'>
+                        <img src={logo} alt="logo" style={{ width: '100px', padding: '20px' }} />
                     </div>
-                    <div>
-                        <Nav />
+                    <div className='header_nav'>
+                        <h1>Falta Nav</h1>
                     </div>
-                </div>
+                    <div className='header_redes'>
+                        <ul>
+                            <li>Redes</li>
+                            <li>Redes</li>
+                            <li>Redes</li>
+                        </ul>
+                    </div>
+                
             </div>
-        </>
+        
     )
 }
 

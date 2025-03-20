@@ -1,0 +1,23 @@
+.buttonHamburg {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    background: none;
+    border: none;
+    transition: color 0.2s;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+
+}
+
+.btn-close {
+    font-size: 24px;
+    border: none;
+    transition: color 0.2s;
+    background-color: rgb(249, 127, 255);
+}
