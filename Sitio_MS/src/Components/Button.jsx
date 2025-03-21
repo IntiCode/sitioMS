@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Button.css';
+//import './Button.css';
 
 const Button = ({ text, color, hover, border }) => {
     const buttonStyle = {
