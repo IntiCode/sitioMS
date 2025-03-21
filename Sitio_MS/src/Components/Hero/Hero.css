@@ -33,3 +33,18 @@
 .Hero_btn a{
     color: white;
 }
+.Hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.Hero_container {
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
