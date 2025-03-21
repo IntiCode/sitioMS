@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import logo from '../../assets/INCRO.jpg'
+import Nav from './../Nav/Nav';
 
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
                         <img src={logo} alt="logo" style={{ width: '100px', padding: '20px' }} />
                     </div>
                     <div className='header_nav'>
-                        <h1>Falta Nav</h1>
+                        <Nav/>
                     </div>
                     <div className='header_redes'>
                         <ul>

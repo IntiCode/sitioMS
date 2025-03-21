@@ -1,15 +1,19 @@
 
 .Hero{
-    background-image: url('../../assets/Fondo.jpg');
+    background:var(--background-hero),
+        url(../../assets/Fondo.jpg);
     background-size:cover;
     background-position: center;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
+    margin-top: -7rem;
+    position: relative;
 
 
 }
 
 .Hero_container{
+    padding-top: 12rem;
     display: flex;
     flex-direction: column;
     align-items: center;

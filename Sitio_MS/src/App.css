@@ -2,4 +2,16 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+
+:root {
+            /*Colores*/
+            --background: linear-gradient(10deg, #fa76ed 1%, #4C8282 100%);
+            --background-hero: linear-gradient(10deg, rgba(84, 86, 86, 0.7) 1%, rgb(73, 74, 74) 100%);
+            --background-hover: linear-gradient(105deg, #6d3b9e, #2c0764);
+            --primary-color: #8F3491;
+            --secondary-color: #2c0764;
 }
