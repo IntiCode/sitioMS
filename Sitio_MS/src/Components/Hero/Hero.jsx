@@ -1,21 +1,29 @@
 import React from 'react';
 import './Hero.css';
-import Button from '../Button';
+import { Button } from 'react-bootstrap';
 
 const Hero = () => {
     return (
         <section className='Hero'>
+
             <div className='Hero_container'>
-                <h1>MS</h1>
-                <h2>Consultora</h2>
+                <h1>MS-Seguridad</h1>
+                <h2>Consultora en HSE</h2>
             </div>
-            <div>
-                <Button
-                    color='blue'    // Color normal del botón
-                    hover='red'    // Color del botón al hacer hover
-                    text='Más info' // Texto del botón
-                    border='1px solid black'   // Borde del botón
-                />
+
+            <div className="Hero_buttons d-flex gap-2 mb-2">
+                <div className="button_container">
+                    <Button id='Servicios' size="lg">
+                        Servicios
+                    </Button>
+                </div>
+                <div className="button_container">
+                    <Button id='Contacto' size="lg">
+                        Contacto
+                    </Button>
+                </div>
+
+
             </div>
         </section>
     );

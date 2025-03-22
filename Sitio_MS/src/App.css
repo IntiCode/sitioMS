@@ -1,3 +1,5 @@
+
+
 *{
     margin:0;
     padding:0;
@@ -9,9 +11,17 @@
 
 :root {
             /*Colores*/
-            --background: linear-gradient(10deg, #fa76ed 1%, #4C8282 100%);
-            --background-hero: linear-gradient(10deg, rgba(84, 86, 86, 0.7) 1%, rgb(73, 74, 74) 100%);
-            --background-hover: linear-gradient(105deg, #6d3b9e, #2c0764);
-            --primary-color: #8F3491;
-            --secondary-color: #2c0764;
+            --main-color: rgb(75, 129, 129);
+            --background-color: rgb(255, 255, 255);
+            --hover-color: rgb(51, 51, 51);
+            --text-color: rgb(51, 51, 51);
+            --text-color-light: rgb(255, 255, 255);
+            --text-color-dark: rgb(0, 0, 0);
+            --border-color: rgb(51, 51, 51);
+            --border-color-light: rgb(255, 255, 255);
+            --border-color-dark: rgb(0, 0, 0);
+            --shadow-color: rgba(0, 0, 0, 0.2);
+            --shadow-color-light: rgba(255, 255, 255, 0.2);
+            --shadow-color-dark: rgba(0, 0, 0, 0.2);
 }
+
