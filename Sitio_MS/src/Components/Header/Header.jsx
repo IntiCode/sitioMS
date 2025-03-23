@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import logo from '../../assets/INCRO.jpg'
 import Nav from './../Nav/Nav';
+import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 
 
 const Header = () => {
@@ -16,9 +17,9 @@ const Header = () => {
                     </div>
                     <div className='header_redes'>
                         <ul>
-                            <li>Redes</li>
-                            <li>Redes</li>
-                            <li>Redes</li>
+                            <li><FaInstagram/></li>
+                            <li><FaLinkedin/></li>
+                            <li><FaFacebookSquare/></li>
                         </ul>
                     </div>
                 

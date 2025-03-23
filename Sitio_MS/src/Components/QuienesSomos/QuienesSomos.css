@@ -1,0 +1,33 @@
+.quienes-somos {
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.quienes-somos h1 {
+    color: var(--text-color); /* Color de texto principal */
+    font-size: var(--font-size-medium);
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    
+}
+
+.quienes-somos .card {
+    border: none;
+    box-shadow: var(--shadow-color-light); 
+    transition: transform 0.3s ease;
+}
+
+.quienes-somos .card:hover {
+    transform: translateY(-5px); 
+}
+
+.quienes-somos .card-title {
+    color: #343a40; 
+    font-weight: bold;
+    
+}
+
+.quienes-somos .lead {
+    color: #6c757d; 
+}
