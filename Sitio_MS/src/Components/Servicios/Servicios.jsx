@@ -2,7 +2,18 @@ import React from 'react'
 
 const Servicios = () => {
   return (
-    <div>Servicios</div>
+    <section id="servicios" className="Servicios">
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+      <div>Servicios</div>
+    </section>
   )
 }
 

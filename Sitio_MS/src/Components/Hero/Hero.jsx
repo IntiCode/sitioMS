@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 const Hero = () => {
     return (
-        <section className='Hero'>
+        <section id="inicio" className="Hero">
 
             <div className='Hero_container'>
                 <h1>MS-Seguridad</h1>

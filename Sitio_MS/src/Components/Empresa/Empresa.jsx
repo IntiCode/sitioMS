@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import './QuienesSomos.css'; // Archivo CSS para estilos personalizados (opcional)
+import './Empresa.css'; // Archivo CSS para estilos personalizados (opcional)
 
-const QuienesSomos = () => {
+const Empresa = () => {
   return (
+    <section id="empresa" className="Empresa">
     <Container className="quienes-somos my-5">
       <Row className="text-center mb-4">
         <Col>
@@ -57,7 +58,8 @@ const QuienesSomos = () => {
         </Col>
       </Row>
     </Container>
+    </section>
   );
 };
 
-export default QuienesSomos;
+export default Empresa;

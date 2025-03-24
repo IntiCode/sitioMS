@@ -1,4 +1,5 @@
 import "./Nav.css";
+import { Link } from 'react-scroll';
 
 const Nav = () => {
 
@@ -6,10 +7,10 @@ const Nav = () => {
     return (
         <nav className="nav">
             <ul className="menu">
-                <li>Home</li>
-                <li>Empresa</li>
-                <li>Servicios</li>
-                <li>Contacto</li>
+                <li><Link to="inicio"   smooth={true} duration={200}>Inicio</Link></li>
+                <li><Link to="empresa"   smooth={true} duration={500}>Empresa</Link></li>
+                <li><Link to="servicios"   smooth={true} duration={200}>Servicios</Link></li>
+                <li><Link to="contacto"   smooth={true} duration={500}>Contacto</Link></li>
             </ul>
         </nav>
     );
