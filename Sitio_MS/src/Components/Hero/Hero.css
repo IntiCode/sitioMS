@@ -1,42 +1,34 @@
 
 .Hero{
-    background-color: rgb(75, 129, 129);
-    height: 100vh;
-    width: 100%;
+    background-image: url(../../assets/hero/herotranspa2.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-top: 0rem;
     text-align: center;
-    padding: 20px;
+    height: 100vh;
+    margin-top: 50px;
+    
 
 }
 
 .Hero_container{
-    padding-top: 12rem;
+    padding-top: 15rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding-left:15rem
+    
     
 }
 
-.Hero_container h1{
-    font-size: 3rem;
-    color: white;
-    text-align: center;
-    margin-bottom: 0;
-    padding-top: 2rem;
-    padding-bottom: 20px;
-}
 
-.Hero_container h2{
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding-bottom: 8rem;
-}
+
 
 .Hero_buttons{
     display: flex;
-    justify-content: center;
+    margin-top: 5rem;
+    padding-left:8rem
+    
 }
 
 

@@ -3,7 +3,7 @@
     grid-template-columns: 0.5fr 2fr 1fr;
     align-items: center;
     padding: 2.2rem 0.2rem;
-    background-color: rgba(91, 111, 111, 0.5);
+    background-color: rgba(253, 253, 253);
     z-index: 1000;
     position: fixed;
     width: 100%;
@@ -26,6 +26,6 @@
     display: inline;
     padding: 0 0px;
     cursor: pointer;
-    color:#ffffff;
+    color:#3c3b3b;
     font-size: 1.2rem;
 }

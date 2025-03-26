@@ -1,7 +1,7 @@
 .nav{
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(51, 50, 50);
     font-size: 1.2rem;
 
 
@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     margin-left:10rem;
-    color: white;
     font-size: 1.2rem;
     gap:50px
 }
@@ -18,7 +17,7 @@
 .menu li{
     display: inline-block;
     
-    color: white;
+    color: rgb(59, 59, 59);
     
     cursor: pointer;
 }
