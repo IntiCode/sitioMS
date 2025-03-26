@@ -1,25 +1,22 @@
 import React from "react";
-
-
 import logo1 from '../../assets/hero/1logo.png';
 import logo2 from '../../assets/hero/1logo.png';
 
 const ServiceCard = ({ logo, title, description }) => {
   return (
-    <div className="max-w-sm rounded-2xl shadow-lg p-4 text-center border">
-      <div className="flex justify-center mb-4">
-        <img src={logo} alt={title} className="icono" />
+    <div className="card">
+      <div className="card-body text-center">
+        <img src={logo} alt={title} className="card-img-top" style={{ maxWidth: '100px', margin: '0 auto' }} />
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
       </div>
-      <h2 className="titulo">{title}</h2>
-      <p className="parrafo">{description}</p>
     </div>
   );
 };
 
 const Servicios = () => {
   const services = [
-    { 
-      logo: logo1,
+   { logo: logo1,
       title: "Asesoramiento en Seguridad, Higiene y Medio Ambiente",
       description: "Consultoría integral para garantizar el cumplimiento de normativas de seguridad, higiene laboral y protección del medio ambiente."
     },
@@ -118,14 +115,18 @@ const Servicios = () => {
       title: "Certificación de Equipos de Altura",
       description: "Servicios de certificación para equipos de trabajo en altura, asegurando su operatividad y cumplimiento con las normativas de seguridad."
     }
-  ]
-  ;
+    // Agregar más servicios
+  ];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
-      {services.map((service, index) => (
-        <ServiceCard key={index} {...service} />
-      ))}
+    <div className="container my-5">
+      <div className="row">
+        {services.map((service, index) => (
+          <div className="col-md-4 mb-4" key={index}>
+            <ServiceCard {...service} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
