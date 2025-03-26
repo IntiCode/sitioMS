@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import './Empresa.css'; // Archivo CSS para estilos personalizados (opcional)
+import './Empresa.css'; 
 
 const Empresa = () => {
   return (

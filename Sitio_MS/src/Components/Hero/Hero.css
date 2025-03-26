@@ -8,27 +8,31 @@
     text-align: center;
     height: 100vh;
     margin-top: 50px;
-    
+     display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
+
 
 .Hero_container{
-    padding-top: 15rem;
-    display: flex;
-    flex-direction: column;
-    padding-left:15rem
-    
+    padding-top: 18rem;
+    padding-left:12rem;
     
 }
 
-
+.Hero_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 .Hero_buttons{
     display: flex;
-    margin-top: 5rem;
-    padding-left:8rem
-    
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;    
 }
 
 

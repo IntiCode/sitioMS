@@ -8,23 +8,27 @@ const Hero = () => {
         <section id="inicio" className="Hero">
 
             <div className='Hero_container'>
-                <img className='heroImg' src={logoHero} alt="logo" width="200" />
+                
+                <div className='Hero_logo'>
+                    <img className='heroImg' src={logoHero} alt="logo" width="200" />
+                </div>
+                
+                <div className="Hero_buttons d-flex gap-2 mb-2">
+                    <div className="button_container">
+                        <Button id='Servicios' size="lg">
+                            Servicios
+                        </Button>
+                    </div>
+                    <div className="button_container">
+                        <Button id='Contacto' size="lg">
+                            Contacto
+                        </Button>
+                    </div>
+
+                </div>
             </div>
 
-            <div className="Hero_buttons d-flex gap-2 mb-2">
-                <div className="button_container">
-                    <Button id='Servicios' size="lg">
-                        Servicios
-                    </Button>
-                </div>
-                <div className="button_container">
-                    <Button id='Contacto' size="lg">
-                        Contacto
-                    </Button>
-                </div>
 
-
-            </div>
         </section>
     );
 };
