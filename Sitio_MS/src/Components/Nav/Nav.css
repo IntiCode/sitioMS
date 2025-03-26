@@ -1,23 +1,41 @@
 .nav{
     display: flex;
     justify-content: center;
+    align-items: center;
     color: rgb(51, 50, 50);
     font-size: 1.2rem;
-
-
+    height: 100%;
 }
+
 .menu{
     display: flex;
-    align-items: center;
-    margin-left:10rem;
-    font-size: 1.2rem;
-    gap:50px
-}
+        align-items: center;
+        /* Centra verticalmente los elementos dentro del menú */
+        justify-content: center;
+        /* Centra horizontalmente */
+        gap: 50px;
+        padding: 0;
+        padding-left: 12rem;
+        /* Elimina posibles espacios extras */
+        margin: 0;
+        /* Asegura que no haya márgenes innecesarios */
+        list-style: none;
+        /* Elimina los estilos de lista */
+        height: 100%;
+        width: 100%;
+        /* Para que tome la altura del nav */}
 
 .menu li{
     display: inline-block;
-    
+    font-weight: 800;
+    font-size: 1.1em;
     color: rgb(59, 59, 59);
-    
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.menu li:hover{
+    color: rgb(75, 129, 129);
+    transform: scale(1.1);
 }

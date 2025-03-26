@@ -1,6 +1,7 @@
 import React from "react";
 import logo1 from '../../assets/hero/1logo.png';
 import logo2 from '../../assets/hero/1logo.png';
+import './Servicios.css';
 
 const ServiceCard = ({ logo, title, description }) => {
   return (
@@ -16,7 +17,7 @@ const ServiceCard = ({ logo, title, description }) => {
 
 const Servicios = () => {
   const services = [
-   { logo: logo1,
+  { logo: logo1,
       title: "Asesoramiento en Seguridad, Higiene y Medio Ambiente",
       description: "Consultoría integral para garantizar el cumplimiento de normativas de seguridad, higiene laboral y protección del medio ambiente."
     },
@@ -119,6 +120,7 @@ const Servicios = () => {
   ];
 
   return (
+    <section id="servicios" className="Servicios">
     <div className="container my-5">
       <div className="row">
         {services.map((service, index) => (
@@ -128,6 +130,7 @@ const Servicios = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 

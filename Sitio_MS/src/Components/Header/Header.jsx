@@ -22,7 +22,7 @@ const Header = () => {
         
             <div className='header'>
                     <div className='header_logo'>
-                        <img src={logo} alt="logo" style={{ width: '150px', padding: '30px' }} />
+                        <img src={logo} alt="logo" style={{ width: '8rem', padding: '8px 0px 8px 20px' }} />
                     </div>
 
             {isMobile ? <NavMobile /> : <Nav />}

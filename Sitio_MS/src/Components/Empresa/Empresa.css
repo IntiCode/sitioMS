@@ -1,16 +1,20 @@
-
+.Empresa{
+    margin-top: rem;
+    background: linear-gradient(to top, rgb(75, 129, 129),#fffcfc) ; /* Fondo claro */
+    padding: 1rem;
+    border-radius: 10px;
+}
 
 .quienes-somos {
-    background-color: #2e5174; /* Fondo claro */
+    margin-top: 5rem;
     padding: 1rem;
     border-radius: 10px;
 }
 
 .quienes-somos h1 {
-    color: var(--text-color); /* Color de texto principal */
+    color: rgb(23, 23, 23); /* Color de texto principal */
     font-size: var(--font-size-medium);
     margin-bottom: 1rem;
-    line-height: 2rem;
     
 }
 
