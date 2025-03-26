@@ -1,8 +1,12 @@
 .Empresa{
     margin-top: rem;
-    background: linear-gradient(to top, rgb(75, 129, 129),#fffcfc) ; /* Fondo claro */
+    background: linear-gradient(to top, rgb(75, 129, 129),white) ; /* Fondo claro */
     padding: 1rem;
     border-radius: 10px;
+}
+.Empresa p, 
+.Empresa .card-text {
+    text-align: justify;
 }
 
 .quienes-somos {
@@ -36,4 +40,9 @@
 
 .quienes-somos .lead {
     color: #6c757d; 
+    text-align: center;
+}
+
+.Empresa .compromiso {
+    text-align: center;
 }

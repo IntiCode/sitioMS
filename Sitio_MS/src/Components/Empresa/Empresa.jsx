@@ -40,8 +40,8 @@ const Empresa = () => {
         <Col>
           <Card>
             <Card.Body>
-              <Card.Title>Nuestro Compromiso</Card.Title>
-              <Card.Text>
+              <Card.Title className='compromiso'>Nuestro Compromiso</Card.Title>
+              <Card.Text className='compromiso'>
                 Acompañamos a empresas de diferentes sectores en la implementación de soluciones estratégicas para optimizar procesos y garantizar la seguridad, calidad y sostenibilidad en sus operaciones.
               </Card.Text>
             </Card.Body>
@@ -51,7 +51,7 @@ const Empresa = () => {
 
       <Row className="text-center">
         <Col>
-          <h3 className="custom-line-height mt-3 mb-3 ">Confía en nuestra experiencia</h3>
+          <h3 className="custom-line-height mt-3 mb-3 ">Brindamos nuestros servicios a todo el pais</h3>
           <p className="lead">
             Impulsamos el crecimiento de tu empresa con un enfoque sólido en seguridad, calidad y sostenibilidad.
           </p>
