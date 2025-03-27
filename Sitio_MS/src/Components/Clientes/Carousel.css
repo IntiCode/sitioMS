@@ -1,0 +1,21 @@
+.carousel-item {
+    transition: transform 5s ease-in-out;
+    /* Cambia el tiempo a 1 segundo para suavizar aún más */
+}
+
+#img {
+    width: 10%;
+    /* Define un tamaño fijo para las imágenes */
+    height: auto;
+    /* Mantiene la relación de aspecto */
+    object-fit: contain;
+    /* Asegura que las imágenes no se deformen */
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.carousel-inner {
+    padding: 0 10px;
+    /* Agrega espacio a los lados para que no estén pegados al borde */
+}
+

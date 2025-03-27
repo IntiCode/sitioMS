@@ -20,15 +20,18 @@
     text-align: center;
 }
 
-
-
-
-.btn {
-    background-color: rgb(48, 46, 47);
-    border: none;
+.container_buttons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
 }
 
-.btn:hover{
-    background-color: white;
-    color: rgb(48, 46, 47)
+.buttons_blanco{
+    padding:0.2rem 1.5rem;
+
 }
+
+
+
+
