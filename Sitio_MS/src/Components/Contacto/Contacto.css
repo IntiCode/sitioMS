@@ -1,5 +1,5 @@
 .Contacto {
-    background-color: #f4f4f4; /* Color de fondo suave */
+    background: linear-gradient(to bottom, rgb(75, 129, 129),rgb(48,46,47)) ; /* Fondo claro */
     padding: 50px 20px;
     text-align: center;
 }
