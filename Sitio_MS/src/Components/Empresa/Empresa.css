@@ -1,25 +1,30 @@
 .Empresa {
     background: linear-gradient(to top, rgb(75, 129, 129), #f3f2f2);
     /* mismo color que la onda */
-    margin-top: -2rem;
+    
     padding: 0rem;
     border-radius: 10px;
 }
 .Empresa p, 
 .Empresa .card-text {
     text-align: justify;
+    font-size: var(--font-size-medium);
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 .quienes-somos {
-    margin-top: 5rem;
+    
+    margin-top: 2rem;
     padding: 1rem;
     border-radius: 10px;
 }
 
 .quienes-somos h1 {
-    color: rgb(22, 21, 21); /* Color de texto principal */
-    font-size: var(--font-size-medium);
+    color: rgb(48, 46, 47); /* Color de texto principal */
+    font-size: var(--font-size-extra-large);
     margin-bottom: 1rem;
+    line-height: 5rem;
     
 }
 
@@ -36,17 +41,24 @@
 .quienes-somos .card-title {
     color: #202326; 
     font-weight: bold;
+    font-size: var(--font-size-large);
+    line-height: 2rem;
     
 }
 
 .quienes-somos .lead {
-    color: #454a4f; 
+    color: var(--main-color); 
+    font-weight: 900;
+    font-size: var(--font-size-medium);
+    text-transform: uppercase;
     text-align: center;
+
 }
 
 .Empresa .compromiso {
     text-align: center;
 }
+
 
 h3{
     color: #202326;
