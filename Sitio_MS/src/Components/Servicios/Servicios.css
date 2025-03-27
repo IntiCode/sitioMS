@@ -2,6 +2,27 @@
     background-color: rgb(75, 129, 129);
 }
 
+.title{
+    text-align: center;
+    color: var(--text-color-light);
+        /* Color de texto principal */
+    font-size: var(--font-size-extra-large);
+    margin-bottom: 1rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    color: var(--text-color-light);
+    font-weight: 900;
+    font-size: var(--font-size-medium);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
 .btn {
     background-color: rgb(48, 46, 47);
     border: none;

@@ -1,10 +1,11 @@
 import React from "react";
+import './ServiceCard.css';
 
 const ServiceCard = ({ logo, title, description }) => {
   return (
-    <div className="card h-100">
+    <div className="card">
       <div className="card-body text-center">
-        <img src={logo} alt={title} className="card-img-top" style={{ maxWidth: '100px', margin: '0 auto' }} />
+        <img className="card-img-top" src={logo} alt={title} style={{ maxWidth: '100px', margin: '1rem auto' }} />
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
       </div>

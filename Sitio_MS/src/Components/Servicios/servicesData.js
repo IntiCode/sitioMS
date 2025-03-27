@@ -1,6 +1,5 @@
 import logo1 from '../../assets/servicios/servicio1.png';
-import logo2 from '../../assets/servicios/servicio2.png';
-import logo3 from '../../assets/servicios/servicio3.png'
+
 
 const services = [
   { 
@@ -9,12 +8,12 @@ const services = [
     description: "Consultoría integral para garantizar el cumplimiento de normativas de seguridad, higiene laboral y protección del medio ambiente."
   },
   { 
-    logo: logo2,
+    logo: logo1,
     title: "Armado de Programas de Seguridad",
     description: "Diseño y desarrollo de programas de seguridad personalizados para mitigar riesgos laborales y cumplir con las regulaciones vigentes."
   },
   { 
-    logo: logo3,
+    logo: logo1,
     title: "Gestiones ART",
     description: "Gestión de trámites y acuerdos con Aseguradoras de Riesgos del Trabajo (ART) para asegurar la cobertura y el cumplimiento legal."
   },

@@ -49,12 +49,7 @@ const Empresa = () => {
         </Col>
       </Row>
 
-      <Row className="text-center">
-        <Col>
-          <h3 className="custom-line-height mt-3 mb-3 ">Brindamos nuestros servicios a todo el pais</h3>
-          
-        </Col>
-      </Row>
+      
     </Container>
     </section>
   );

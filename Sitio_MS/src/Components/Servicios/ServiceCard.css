@@ -1,0 +1,15 @@
+.card-title{
+    color: #202326; 
+    font-weight: bold;
+    font-size: var(--font-size-medium);
+    line-height: 1.9rem;
+}
+
+.card-text{
+    color: var(--text-color); 
+    font-weight: 500;
+    font-size: var(--font-size-small);
+    text-align: justify;
+    line-height: 1.6rem;
+
+}
