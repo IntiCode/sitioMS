@@ -1,7 +1,8 @@
-.Empresa{
-    margin-top: rem;
-    background: linear-gradient(to top, rgb(75, 129, 129),white) ; /* Fondo claro */
-    padding: 1rem;
+.Empresa {
+    background: linear-gradient(to top, rgb(75, 129, 129), #f3f2f2);
+    /* mismo color que la onda */
+    margin-top: -2rem;
+    padding: 0rem;
     border-radius: 10px;
 }
 .Empresa p, 
