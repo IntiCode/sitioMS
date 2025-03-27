@@ -18,10 +18,10 @@ const Servicios = () => {
             </div>
           ))}
         </div>
-        {!showAll && services.length > 9 && (
+        {services.length > 9 && (
           <div className="text-center mt-4">
-            <button className="btn btn-primary" onClick={() => setShowAll(true)}>
-              Ver más
+            <button className="btn btn-primary" onClick={() => setShowAll(!showAll)}>
+              {showAll ? "Ver menos" : "Ver más"}
             </button>
           </div>
         )}
@@ -31,4 +31,7 @@ const Servicios = () => {
 };
 
 export default Servicios;
+
+
+
 

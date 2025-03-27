@@ -1,3 +1,13 @@
 .Servicios{
     background-color: rgb(75, 129, 129);
 }
+
+.btn {
+    background-color: rgb(48, 46, 47);
+    border: none;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(48, 46, 47)
+}
