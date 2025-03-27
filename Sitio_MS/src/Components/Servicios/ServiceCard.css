@@ -1,3 +1,14 @@
+.card{
+    border: none;
+    box-shadow: var(--shadow-color-light); 
+    transition: transform 0.3s ease;
+    background-color:var(--background-color-light); 
+}
+
+.card:hover{
+    transform: translateY(-5px); 
+}
+
 .card-title{
     color: #202326; 
     font-weight: bold;
