@@ -25,10 +25,10 @@ const Contacto = () => {
                     <h4>Whatsapp</h4>
                     <div className="contactowhatsapp">
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/++542996732349" target="_blank" rel="noopener noreferrer">+54 9 </a>
+                            <a href="https://wa.me/+542996732349" target="_blank" rel="noopener noreferrer">+542996732349 </a>
                         </div>
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/++542914020745" target="_blank" rel="noopener noreferrer">+54 9 </a>
+                            <a href="https://wa.me/+542914020745" target="_blank" rel="noopener noreferrer">+542914020745 </a>
                         </div>
                     </div>
 

@@ -1,5 +1,6 @@
 import logo1 from '../../assets/servicios/servicio1.png';
-
+import logo2 from '../../assets/servicios/servicio2.png';
+import logo3 from '../../assets/servicios/servicio3.png'
 
 const services = [
   { 
@@ -8,12 +9,12 @@ const services = [
     description: "Consultoría integral para garantizar el cumplimiento de normativas de seguridad, higiene laboral y protección del medio ambiente."
   },
   { 
-    logo: logo1,
+    logo: logo2,
     title: "Armado de Programas de Seguridad",
     description: "Diseño y desarrollo de programas de seguridad personalizados para mitigar riesgos laborales y cumplir con las regulaciones vigentes."
   },
   { 
-    logo: logo1,
+    logo: logo3,
     title: "Gestiones ART",
     description: "Gestión de trámites y acuerdos con Aseguradoras de Riesgos del Trabajo (ART) para asegurar la cobertura y el cumplimiento legal."
   },
@@ -82,11 +83,7 @@ const services = [
     title: "Licitaciones HSE",
     description: "Gestión y elaboración de licitaciones para proyectos que requieren cumplimiento de normativas de seguridad, higiene y medio ambiente."
   },
-  { 
-    logo: logo1,
-    title: "Estudios Higiénicos y Ambientales",
-    description: "Evaluaciones detalladas sobre las condiciones ambientales y laborales para prevenir riesgos y mejorar la salud en el lugar de trabajo."
-  },
+  
   { 
     logo: logo1,
     title: "Alquiler de Equipos de Medición y de Rescate para Altura y Espacios Confinados",
