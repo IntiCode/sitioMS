@@ -1,5 +1,5 @@
 import logo1 from '../../assets/servicios/servicio1.png';
-import logo2 from '../../assets/hero/1logo.png';
+
 
 const services = [
   { 

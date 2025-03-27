@@ -1,1 +1,97 @@
+.Contacto {
+    background-color: #f4f4f4; /* Color de fondo suave */
+    padding: 50px 20px;
+    text-align: center;
+}
 
+.Contacto-title h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contact_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact_mail, .contact_whatsapp {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #25d366; /* Verde de WhatsApp */
+}
+
+.contact_mail .contact-icon {
+    color: #0073e6; /* Azul de email */
+}
+
+.contact_mail a, .contact_whatsapp a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.contactowhatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form {
+    background: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.send {
+    width: 100%;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.send:hover {
+    background: #005bb5;
+}

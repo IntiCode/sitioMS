@@ -16,7 +16,7 @@
 }
 
 .quienes-somos h1 {
-    color: rgb(23, 23, 23); /* Color de texto principal */
+    color: rgb(22, 21, 21); /* Color de texto principal */
     font-size: var(--font-size-medium);
     margin-bottom: 1rem;
     
@@ -33,16 +33,20 @@
 }
 
 .quienes-somos .card-title {
-    color: #343a40; 
+    color: #202326; 
     font-weight: bold;
     
 }
 
 .quienes-somos .lead {
-    color: #6c757d; 
+    color: #454a4f; 
     text-align: center;
 }
 
 .Empresa .compromiso {
     text-align: center;
+}
+
+h3{
+    color: #202326;
 }
