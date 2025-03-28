@@ -12,12 +12,6 @@ function Carrousel() {
                     <img id='img' className="d-block" src={img1} alt="Logo 1" />
                     <img id='img' className="d-block" src={img1} alt="Logo 2" />
                     <img id='img' className="d-block" src={img1} alt="Logo 3" />
-                </div>
-            </Carousel.Item>
-            <Carousel.Item>
-                <div className="d-flex justify-content-around">
-                    <img id='img' className="d-block" src={img1} alt="Logo 1" />
-                    <img id='img' className="d-block" src={img1} alt="Logo 2" />
                     <img id='img' className="d-block" src={img1} alt="Logo 3" />
                 </div>
             </Carousel.Item>
@@ -25,6 +19,15 @@ function Carrousel() {
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img1} alt="Logo 1" />
                     <img id='img' className="d-block" src={img1} alt="Logo 2" />
+                    <img id='img' className="d-block" src={img1} alt="Logo 3" />
+                    <img id='img' className="d-block" src={img1} alt="Logo 3" />
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div className="d-flex justify-content-around">
+                    <img id='img' className="d-block" src={img1} alt="Logo 1" />
+                    <img id='img' className="d-block" src={img1} alt="Logo 2" />
+                    <img id='img' className="d-block" src={img1} alt="Logo 3" />
                     <img id='img' className="d-block" src={img1} alt="Logo 3" />
                 </div>
             </Carousel.Item>

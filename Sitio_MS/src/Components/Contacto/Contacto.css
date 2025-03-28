@@ -35,6 +35,7 @@
 }
 .title-form{
     color: var(--text-color-green);
+    padding:20px
 }
 .contact_mail, .contact_whatsapp {
     background: white;
