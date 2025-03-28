@@ -15,8 +15,9 @@
 }
 
 .contacto-title{
-    line-height: 20px;
+    line-height: 30px;
 }
+
 
 .contact_options {
     display: flex;
@@ -76,6 +77,10 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container_form{
+    width: 100%;
 }
 
 .form-control {

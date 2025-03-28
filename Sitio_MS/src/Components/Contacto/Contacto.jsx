@@ -34,7 +34,7 @@ const Contacto = () => {
 
                 </article>
 
-                <form >
+                <form className='container_form' >
                     <div className="form-control">
 
                         <input
