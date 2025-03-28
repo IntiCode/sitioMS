@@ -1,7 +1,6 @@
-
-.Hero{
+.Hero {
     background-image: url(../../assets/hero/herotranspa2.png);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 0rem;
@@ -10,69 +9,58 @@
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
-
-.Hero_container{
+.Hero_container {
     padding-top: 18rem;
-    padding-left:12rem;
+    padding-left: 12rem;
     height: 120%;
-    
 }
 
-.Hero_logo{
+.Hero_logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-
-.Hero_buttons{
+.Hero_buttons {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;  
-    height:20%;
-    
+    margin-top: 5rem;
+    height: 20%;
 }
-
 
 .button_container {
-    padding:0px 50px;
+    padding: 0px 50px;
     height: 100%;
     align-items: center;
     display: flex;
-
 }
-
 
 #Servicios {
     background-color: var(--main-color);
-    color:var(--text-color-light);
+    color: var(--text-color-light);
     border: none;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
-
 }
 
-#Servicios:hover{
+#Servicios:hover {
     background-color: var(--hover-color);
-    color:var(--text-color-light);
+    color: var(--text-color-light);
     box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.5);
 }
 
 #Contacto {
     background-color: var(--background-color);
-    color:var(--text-color);
+    color: var(--text-color);
     border: none;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
-
 }
 
-#Contacto:hover{
+#Contacto:hover {
     background-color: var(--hover-color);
-    color:var(--text-color-light);
+    color: var(--text-color-light);
     box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.5);
 }
 
@@ -81,7 +69,6 @@
     width: 100%;
     position: relative;
     z-index: 1;
-    
 }
 
 .Hero_wave svg {
@@ -90,8 +77,48 @@
     height: auto;
 }
 
+/*mobile*/
 
+@media (max-width: 768px) {
+    .Hero {
+        background-image: none;
+        background: linear-gradient(to bottom, rgb(208, 206, 206), #f3f2f2);
+        text-align: center;
+        overflow-x: hidden;
+        margin-top: -5rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
 
+    .Hero_container {
+        padding-top: 20rem;
+        padding-left: 0rem;
+        height: 100%;
+    }
 
+    .Hero_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+    }
 
+    .heroImg {
+        width: 40%;
+        height: 50%;
+        margin-top: 0rem;
+    }
 
+    .Hero_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    height: 50%;
+}
+
+.Hero_wave {
+    display:none
+}
+}

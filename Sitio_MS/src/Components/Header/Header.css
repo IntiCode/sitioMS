@@ -49,3 +49,19 @@
     transform: scale(1.2);
     /* font-size: 1.8em; */
 }
+
+/*Mobile*/
+
+@media screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr 1fr;
+        margin-top: -0.1rem;
+        background-color:rgba(240, 248, 255, 0);
+
+    }
+    .header_redes {
+        display:none
+    }
+    
+    
+}
