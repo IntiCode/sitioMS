@@ -45,7 +45,7 @@
 }
 
 .footer-secciones p:hover {
-    color: #0A74DA;
+    color: var(--main-color);
 }
 
 

@@ -33,7 +33,9 @@
     max-width: 800px;
     margin: auto;
 }
-
+.title-form{
+    color: var(--text-color-green);
+}
 .contact_mail, .contact_whatsapp {
     background: white;
     padding: 15px;
@@ -48,7 +50,7 @@
 .contact-icon {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #25d366; /* Verde de WhatsApp */
+    color: var(--text-color-green)
 }
 
 .contact_mail .contact-icon {
@@ -98,7 +100,7 @@ input, textarea {
 button.send {
     width: 100%;
     padding: 10px;
-    background: #0073e6;
+    background: var(--main-color);
     color: white;
     font-size: 1rem;
     border: none;

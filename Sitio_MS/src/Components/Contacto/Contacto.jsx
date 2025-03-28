@@ -35,6 +35,7 @@ const Contacto = () => {
                 </article>
 
                 <form className='container_form' >
+                    <h3 className='title-form'>Mandanos tu consulta</h3>
                     <div className="form-control">
 
                         <input
