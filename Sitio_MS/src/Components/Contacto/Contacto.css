@@ -1,47 +1,39 @@
 .Contacto {
-    background: linear-gradient(to bottom, rgb(75, 129, 129),rgb(48,46,47)) ; /* Fondo claro */
+    background: linear-gradient(to bottom, rgb(75, 129, 129), rgb(48, 46, 47));
     padding: 50px 20px;
     text-align: center;
 }
 
 .Contacto-title h1 {
-    color: white; /* Color de texto principal */
+    color: white;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     line-height: 5rem;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
 }
 
-.contacto-title{
+.contacto-title {
     line-height: 30px;
 }
-
-
+h4{
+    color: var(--text-color-green);
+}
 .contact_options {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-}
-
-.contact_info {
-    display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
     max-width: 800px;
     margin: auto;
 }
-.title-form{
-    color: var(--text-color-green);
-    padding:20px
-}
+
 .contact_mail, .contact_whatsapp {
     background: white;
     padding: 15px;
     border-radius: 8px;
-    width: 45%;
+    width: 48%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,11 +43,11 @@
 .contact-icon {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: var(--text-color-green)
+    color: var(--text-color-green);
 }
 
 .contact_mail .contact-icon {
-    color: var(--text-color-green)
+    color: var(--text-color-green);
 }
 
 .contact_mail a, .contact_whatsapp a {
@@ -73,17 +65,52 @@
     gap: 10px;
 }
 
-form {
+/* Nueva sección de direcciones */
+.contact_addresses {
     background: white;
-    max-width: 600px;
-    margin: 30px auto;
     padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.address-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    gap: 20px;
+}
+
+.address-item {
+    text-align: center;
+    flex: 1;
+    padding: 15px;
+    background: white;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container_form{
+/* Asegurar que el formulario quede debajo */
+.container_form {
+    background: white;
     width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+}
+
+.title-form {
+    color: var(--text-color-green);
+    padding: 20px;
 }
 
 .form-control {
@@ -96,6 +123,7 @@ input, textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    
 }
 
 button.send {
@@ -110,5 +138,5 @@ button.send {
 }
 
 button.send:hover {
-    background: #005bb5;
+    background: var(--text-color);
 }

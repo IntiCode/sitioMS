@@ -25,14 +25,32 @@ const Contacto = () => {
                     <h4 className='contacto-title'>Whatsapp</h4>
                     <div className="contactowhatsapp">
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/+542996732349" target="_blank" rel="noopener noreferrer">+542996732349 </a>
+                            <a href="https://wa.me/+542996732349" target="_blank" rel="noopener noreferrer">+54 9 2996732349 </a>
                         </div>
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/+542914020745" target="_blank" rel="noopener noreferrer">+542914020745 </a>
+                            <a href="https://wa.me/+542914020745" target="_blank" rel="noopener noreferrer">+54 9 2914020745 </a>
                         </div>
                     </div>
 
                 </article>
+   {/* Nueva sección de direcciones */}
+   <div className="contact_addresses">
+                <h4 className='contacto-title'>Nuestras Oficinas</h4>
+                <div className="address-grid">
+                    <div className="address-item">
+                        <h5>Neuquén</h5>
+                        <p>Pergamino 1531, Neuquén Capital</p>
+                    </div>
+                    <div className="address-item">
+                        <h5>Bahía Blanca</h5>
+                        <p>Tierra del Fuego 860, Bahía Blanca</p>
+                    </div>
+                    <div className="address-item">
+                        <h5>Añelo</h5>
+                        <p>Manzana D Lote 7, Parque Industrial Añelo</p>
+                    </div>
+                </div>
+            </div>
 
                 <form className='container_form' >
                     <h3 className='title-form'>Mandanos tu consulta</h3>
