@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css';
-import imagen from '../../assets/hero/logopeque.png';
+import imagen from '../../assets/hero/MSRecurso 4logon4.png';
 import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
