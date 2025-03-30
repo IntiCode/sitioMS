@@ -8,7 +8,7 @@
     display:grid;
     grid-template-columns: 0.5fr 2fr 1fr;
     align-items: center;
-    z-index: 1000;
+    
     width: 100%;
     height:auto;
     
@@ -46,15 +46,18 @@
 .footer-secciones  {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: bold;
+    padding-left: 30%;
+    padding-top: 10px;
 }
 
 .footer-secciones p:hover {
-    color: var(--text-color);
+    color:  #4b8181;;
+
     cursor: pointer
 }
 
@@ -92,6 +95,7 @@
     position:relative;
     width:auto;
     height:auto;
+    color: white;
 
 }
 
