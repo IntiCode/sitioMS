@@ -5,12 +5,13 @@
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
+    display:grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
     align-items: center;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    z-index: 1000;
+    width: 100%;
+    height:auto;
+    
 }
 
 .footer-logo {
@@ -40,12 +41,12 @@
 }
 
 
-.footer-secciones {
-    display: flex;
-    gap: 30px;
-}
+
 
 .footer-secciones  {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
@@ -53,24 +54,56 @@
 }
 
 .footer-secciones p:hover {
-    color: var(--main-color);
+    color: var(--text-color);
+    cursor: pointer
 }
 
 
-.footer-redes {
+
+
+.footer_redes {
     display: flex;
-    gap: 15px;
-    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    width:100% ; 
+    height: 100%;
+    overflow-y: hidden;
+
+}
+.footer_redes ul {
+    list-style: none;
+    display: flex;
+    justify-content:flex-end; 
+    padding-right: 50px;       
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+
+
 }
 
-.footer-redes span {
+.footer_redes ul li {
+    display: inline;
+    padding: 0 0px;
     cursor: pointer;
-    transition: transform 0.2s;
+    color:var(--text-color);
+    font-size: 1.5em;
+    transition: transform 0.3s ease-in-out;
+    position:relative;
+    width:auto;
+    height:auto;
+
 }
 
-.footer-redes span:hover {
+.footer_redes ul li:hover {
+    color: #4b8181;
     transform: scale(1.2);
+    /* font-size: 1.8em; */
 }
+
+
+
+
 
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 768px) {

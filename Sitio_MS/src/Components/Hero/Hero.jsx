@@ -1,7 +1,9 @@
 import React from 'react';
 import './Hero.css';
+import '../../App.css'
 import { Button } from 'react-bootstrap';
 import logoHero from '../../assets/hero/1logo.png';
+import { Link } from 'react-scroll';
 
 const Hero = () => {
     return (
@@ -15,13 +17,13 @@ const Hero = () => {
                 
                 <div className="Hero_buttons d-flex gap-2 mb-2">
                     <div className="button_container">
-                        <Button id='Servicios' size="lg">
-                            Servicios
+                        <Button id='Servicios' >
+                            <Link to="servicios" smooth={true} duration={200}>Servicios</Link>
                         </Button>
                     </div>
                     <div className="button_container">
-                        <Button id='Contacto' size="lg">
-                            Contacto
+                        <Button id='Contacto' >
+                            <Link to="contacto" smooth={true} duration={500}>Contacto</Link>
                         </Button>
                     </div>
 

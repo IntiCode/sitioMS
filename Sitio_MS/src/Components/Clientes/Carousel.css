@@ -4,9 +4,9 @@
 }
 
 #img {
-    width: 5%;
+    width: 7%;
     /* Define un tamaño fijo para las imágenes */
-    height: auto;
+    height: 300px;
     /* Mantiene la relación de aspecto */
     object-fit: contain;
     /* Asegura que las imágenes no se deformen */

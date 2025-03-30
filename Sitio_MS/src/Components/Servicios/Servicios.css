@@ -24,11 +24,12 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 50px;
+    
 }
 
-.buttons_blanco{
-    padding:0.2rem 1.5rem;
+#buttons_blanco{
+    padding:0.5rem 1.5rem;
+    margin-bottom: 1.2rem;
 
 }
 

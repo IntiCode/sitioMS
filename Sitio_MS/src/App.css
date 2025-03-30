@@ -16,13 +16,16 @@
             --background-color-light: rgb(243, 242, 242);
             --background-gris: rgb(182, 181, 181);
             --hover-color: rgb(51, 51, 51);
+
             --text-color: rgb(48, 46, 47);
             --text-color-green: rgb(75, 129, 129);
             --text-color-light: rgb(243, 242, 242);
             --text-color-dark: rgb(0, 0, 0);
+
             --border-color: rgb(51, 51, 51);
             --border-color-light: rgb(255, 255, 255);
             --border-color-dark: rgb(0, 0, 0);
+
             --shadow-color: rgba(0, 0, 0, 0.2);
             --shadow-color-light: rgba(255, 255, 255, 0.2);
             --shadow-color-dark: rgba(0, 0, 0, 0.2);
@@ -50,6 +53,33 @@
 #buttons_blanco:hover {
         background-color: var(--hover-color);
         color: var(--text-color-light);
-        box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.5);
+        /* box-shadow: -10px 10px 12px rgba(0, 0, 0, 0.5); */
     }
 
+
+#enlaces {
+  text-decoration: none; /* Quita el subrayado */
+  color: var(--text-color); /* Usa el color del elemento padre */
+}
+
+#enlaces:visited {
+  color: inherit; /* Mantiene el color después de haber sido visitado */
+}
+
+#enlaces:hover, a:active {
+  color: inherit; /* Evita el cambio de color al pasar el mouse o hacer clic */
+}
+
+
+#enlacesFooter{
+  text-decoration: none; /* Quita el subrayado */
+  color: var(--text-color-light);
+}
+
+#enlacesFooter:visited {
+  color: inherit; /* Mantiene el color después de haber sido visitado */
+}
+
+#enlacesFooter:hover, a:active {
+  color: inherit; /* Evita el cambio de color al pasar el mouse o hacer clic */
+}

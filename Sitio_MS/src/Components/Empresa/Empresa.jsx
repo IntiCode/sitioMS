@@ -16,8 +16,8 @@ const Empresa = () => {
       <Row className="mb-4">
         <Col md={6}>
           <Card className="h-100">
-            <Card.Body>
-              <Card.Title>Nuestra Experiencia</Card.Title>
+            <Card.Body id="cardBody">
+              <Card.Title className='Card_Title'>Nuestra Experiencia</Card.Title>
               <Card.Text>
                 Con más de 18 años en el sector, nos hemos especializado en brindar asesoría en seguridad, higiene y medio ambiente. Hemos trabajado en diversas industrias, especialmente en Oil & Gas, ingeniería y obras civiles.
               </Card.Text>
@@ -26,8 +26,8 @@ const Empresa = () => {
         </Col>
         <Col md={6}>
           <Card className="h-100">
-            <Card.Body>
-              <Card.Title>Nuestros Servicios</Card.Title>
+            <Card.Body id="cardBody">
+              <Card.Title className='Card_Title'>Nuestros Servicios</Card.Title>
               <Card.Text>
                 Ofrecemos servicios de asesoramiento en sistemas de gestión, análisis de riesgo, matrices de riesgo y definición de KPI. Nos enfocamos en garantizar entornos de trabajo seguros y sustentables.
               </Card.Text>
@@ -39,7 +39,7 @@ const Empresa = () => {
       <Row className="mb-4">
         <Col>
           <Card>
-            <Card.Body>
+            <Card.Body id="cardBody">
               <Card.Title className='compromiso'>Nuestro Compromiso</Card.Title>
               <Card.Text className='compromiso'>
                 Acompañamos a empresas de diferentes sectores en la implementación de soluciones estratégicas para optimizar procesos y garantizar la seguridad, calidad y sostenibilidad en sus operaciones.

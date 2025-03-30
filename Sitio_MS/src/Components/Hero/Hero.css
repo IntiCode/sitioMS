@@ -23,15 +23,19 @@
 }
 
 .Hero_buttons {
-    display: flex;
+
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    height: 20%;
+    height: 40%;
+    z-index: 100;
+    position: relative;
 }
 
 .button_container {
-    padding: 0px 10px;
+    padding: 0px 0px;
+    justify-content: center;
+    width: 100%;
     height: 100%;
     align-items: center;
     display: flex;
@@ -42,6 +46,9 @@
     color: var(--text-color-light);
     border: none;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+    padding:10px 50px;
+    font-size: var(--font-size-large);
+    font-weight: 500;
 }
 
 #Servicios:hover {
@@ -55,6 +62,10 @@
     color: var(--text-color);
     border: none;
     box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.5);
+    padding:10px 50px;
+    font-size: var(--font-size-large);
+    font-weight: 500;
+
 }
 
 #Contacto:hover {
