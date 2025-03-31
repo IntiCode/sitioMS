@@ -8,11 +8,12 @@ const Contacto = () => {
         <section id="contacto" className="Contacto">
             <div className='Contacto-title'>
                 <h1 className='custom-line-height'>Contacto</h1>
-                
+
 
             </div>
 
             <div className="contact_options">
+                <div className="contact_card">
                 <article className='contact_mail'>
                     <MdOutlineMailOutline className="contact-icon" />
                     <h4 className='contacto-title'>Email</h4>
@@ -33,24 +34,27 @@ const Contacto = () => {
                     </div>
 
                 </article>
-   {/* Nueva sección de direcciones */}
-   <div className="contact_addresses">
-                <h4 className='contacto-title'>Nuestras Oficinas</h4>
-                <div className="address-grid">
-                    <div className="address-item">
-                        <h5>Neuquén</h5>
-                        <p>Pergamino 1531, Neuquén Capital</p>
-                    </div>
-                    <div className="address-item">
-                        <h5>Bahía Blanca</h5>
-                        <p>Tierra del Fuego 860, Bahía Blanca</p>
-                    </div>
-                    <div className="address-item">
-                        <h5>Añelo</h5>
-                        <p>Manzana D Lote 7, Parque Industrial Añelo</p>
+                </div>
+
+                {/* Nueva sección de direcciones */}
+
+                <div className="contact_addresses">
+                    <h4 className='contacto-title'>Nuestras Oficinas</h4>
+                    <div className="address-grid">
+                        <div className="address-item">
+                            <h5>Neuquén</h5>
+                            <p>Pergamino 1531, Neuquén Capital</p>
+                        </div>
+                        <div className="address-item">
+                            <h5>Bahía Blanca</h5>
+                            <p>Tierra del Fuego 860, Bahía Blanca</p>
+                        </div>
+                        <div className="address-item">
+                            <h5>Añelo</h5>
+                            <p>Manzana D Lote 7, Parque Industrial Añelo</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
                 <form className='container_form' >
                     <h3 className='title-form'>Mandanos tu consulta</h3>
@@ -82,16 +86,18 @@ const Contacto = () => {
                             placeholder="Mensaje"
 
                             required
-                        ></textarea>
+                        >
+
+                        </textarea>
 
                     </div>
-                    <button type="submit" className="send">Enviar</button>
+                    <button type="submit" className="send" mailto="soria.vanesa.p@gmail.com">Enviar</button>
 
                 </form></div>
 
 
 
-        
+
         </section >
 
     )

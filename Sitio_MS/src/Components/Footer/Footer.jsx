@@ -28,7 +28,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className='footer_redes d-none d-lg-block'>
+                <div className='footer_redes '>
                     <ul>
                         <li ><a  id="enlacesFooter" href="https://www.instagram.com/" target='_blank' rel='noreferrer noopener'><FaInstagram /></a></li>
                         <li><a  id="enlacesFooter" href="https://www.linkedin.com/" target='_blank' rel='noreferrer noopener'><FaLinkedin /></a></li>

@@ -122,18 +122,31 @@
 
     .heroImg {
         width: 50%;
-        margin-top: -rem;
+        
     }
 
+
+    #Servicios , #Contacto{
+        padding:5px 20px
+    }
+
+    
+
+    
     .Hero_buttons {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 0rem;
-   
+    margin-top: -4rem;
+    
 }
+
+
 
 .Hero_wave {
     display:none
+
 }
+
+
+
 }

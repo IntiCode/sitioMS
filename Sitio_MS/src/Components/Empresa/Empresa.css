@@ -65,9 +65,12 @@
 
 /*mobile*/
 @media screen and (max-width: 768px) {
-
+    .Empresa{
+        margin:0
+    }
+    
+    
     .Empresa p {
-
         font-size: var(--font-size-small);
         color: var(--text-color);
         font-weight: 500;
@@ -75,20 +78,28 @@
     }
 
     .quienes-somos h1 {
-        font-size: var(--font-size-large);
+        font-size: var(--font-title);
+        font-weight: 500;
+        line-height: 3rem;
+        overflow-y: hidden;
     }
 
     .quienes-somos .card-title {
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-large);
     }
 
 
     .quienes-somos .lead {
         font-size: var(--font-size-small);
+        font-weight: 600;
     }
 
     .Empresa .compromiso {
         text-align: justify;
+    }
+
+    #cards_container{
+        gap:1.5rem;
     }
 
     #cardBody {

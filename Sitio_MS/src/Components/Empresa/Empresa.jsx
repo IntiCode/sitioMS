@@ -13,7 +13,7 @@ const Empresa = () => {
         </Col>
       </Row>
 
-      <Row className="mb-4">
+      <Row className=" mb-4" id="cards_container">
         <Col md={6}>
           <Card className="h-100">
             <Card.Body id="cardBody">

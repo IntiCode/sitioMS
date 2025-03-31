@@ -1,7 +1,9 @@
 .carousel-item {
-    transition: transform 5s ease-in-out;
+    transition: transform 3s ease-in-out;
     /* Cambia el tiempo a 1 segundo para suavizar aún más */
 }
+
+
 
 #img {
     width: 7%;
@@ -19,3 +21,19 @@
     /* Agrega espacio a los lados para que no estén pegados al borde */
 }
 
+
+@media (max-width: 768px){
+    
+    #img{
+        width: 30%;
+    }
+
+    .carousel-item {
+    transition: transform 2s ease-in-out;
+    /* Cambia el tiempo a 1 segundo para suavizar aún más */
+}
+.carousel-control-prev, .carousel-control-next{
+    display:none
+}
+
+}

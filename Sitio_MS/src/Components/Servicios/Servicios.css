@@ -33,6 +33,23 @@
 
 }
 
+/*Mobile*/
+
+@media (max-width: 768px){
+    
+    .title{
+        font-size: var(--font-title);
+        font-weight: 500;
+    }
+
+    .subtitle{
+        font-size: var(--font-size-medium);
+        font-weight: 500;
+    }
+}
+
+
+
 
 
 

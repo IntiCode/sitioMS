@@ -14,3 +14,28 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+.carouselMobile{
+    display:none
+}
+
+
+@media (max-width: 768px){
+    
+    .title-clientes{
+        font-size: var(--font-title);
+        font-weight: 500;
+    }
+
+    .subtitle-clientes{
+        font-size: var(--font-size-medium);
+        font-weight: 700;
+        
+    }
+    .carouselMobile{
+        display: block;
+    }
+    .carouselDesk{
+        display:none;
+    }
+}

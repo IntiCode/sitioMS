@@ -36,6 +36,9 @@
             --font-size-large: 1.5rem;
             --font-size-extra-large: 2.5rem;
 
+            /*FuentesMobile*/
+            --font-title:2rem
+
 }
 
 .custom-line-height {
