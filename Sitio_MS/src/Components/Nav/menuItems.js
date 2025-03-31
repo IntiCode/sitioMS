@@ -3,20 +3,16 @@ export const menuItems = [
         id: "inicio",        
         path: "/Inicio" },
     {
-    title: "Servicios",
-    id:"servicios",
-    path: "/Servicios",
-    },
-    {
     title: "Empresa",
     id:"empresa",
     path: "/Empresa",
     },
-    // {
-    // title: "Clientes",
-    // id:"Clientes",
-    // path: "/clientes",
-    // },
+    {
+    title: "Servicios",
+    id:"servicios",
+    path: "/Servicios",
+    },
+    
 
     { title: "Contacto",
         id:"contacto",

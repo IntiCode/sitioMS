@@ -22,8 +22,24 @@
 .contacto-title {
     line-height: 30px;
 }
+
 h4{
     color: var(--text-color-green);
+}
+
+#buttons_blanco{
+    box-shadow: none;
+    background-color: var(--main-color);
+    padding:0.5rem 1.5rem;
+    margin-bottom: 1.2rem;
+
+}
+
+#buttons_blanco a{
+    color:var(--text-color-light)
+}
+#buttons_blanco:hover{
+    background-color:none;
 }
 .contact_options {
     display: flex;
@@ -70,6 +86,8 @@ h4{
     align-items: center;
     gap: 10px;
 }
+
+
 
 /* Nueva sección de direcciones */
 .contact_addresses {

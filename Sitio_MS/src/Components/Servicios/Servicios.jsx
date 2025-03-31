@@ -35,7 +35,7 @@ const Servicios = () => {
         </div>
         {services.length > 6 && (
           <div className="container_buttons ">
-            <Button id="buttons_blanco" size="lg" onClick={handleToggle}>
+            <Button id="buttonMas" size="lg" onClick={handleToggle}>
               {showAll ? "Ver menos" : "Ver más"}
             </Button>
           </div>

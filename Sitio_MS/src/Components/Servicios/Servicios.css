@@ -27,10 +27,15 @@
     
 }
 
-#buttons_blanco{
-    padding:0.5rem 1.5rem;
-    margin-bottom: 1.2rem;
+#buttonMas{
+        background-color: var(--background-color);
+        color: var(--text-color);
+        border: none;
+}
 
+#buttonMas:hover{
+    background-color: var(--hover-color);
+    color: var(--text-color-light);
 }
 
 /*Mobile*/
@@ -46,6 +51,8 @@
         font-size: var(--font-size-medium);
         font-weight: 500;
     }
+
+    
 }
 
 

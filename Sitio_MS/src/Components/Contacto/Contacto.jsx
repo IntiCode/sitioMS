@@ -1,7 +1,9 @@
 import React from 'react';
 import './Contacto.css';
+import '../../App.css';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { SiWhatsapp } from 'react-icons/si';
+import { Button } from 'react-bootstrap';
 
 const Contacto = () => {
     return (
@@ -26,10 +28,10 @@ const Contacto = () => {
                     <h4 className='contacto-title'>Whatsapp</h4>
                     <div className="contactowhatsapp">
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/+542996732349" target="_blank" rel="noopener noreferrer">+54 9 2996732349 </a>
+                            <Button id="buttons_blanco"><a href="https://wa.me/+542996732349" target="_blank" rel="noopener noreferrer">+54 9 2996732349 </a></Button>
                         </div>
                         <div className="contactwhatsapp-item">
-                            <a href="https://wa.me/+542914020745" target="_blank" rel="noopener noreferrer">+54 9 2914020745 </a>
+                            <Button id="buttons_blanco"><a href="https://wa.me/+542914020745" target="_blank" rel="noopener noreferrer">+54 9 2914020745 </a></Button>
                         </div>
                     </div>
 
@@ -91,7 +93,7 @@ const Contacto = () => {
                         </textarea>
 
                     </div>
-                    <button type="submit" className="send" mailto="soria.vanesa.p@gmail.com">Enviar</button>
+                    <button type="submit" className="send" mailto="">Enviar</button>
 
                 </form></div>
 
