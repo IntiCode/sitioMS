@@ -19,7 +19,7 @@ const Empresa = () => {
             <Card.Body id="cardBody">
               <Card.Title className='Card_Title'>Nuestra Experiencia</Card.Title>
               <Card.Text>
-                Con más de 18 años en el sector, nos hemos especializado en brindar asesoría en seguridad, higiene y medio ambiente. Hemos trabajado en diversas industrias, especialmente en Oil & Gas, ingeniería y obras civiles.
+              Con más de 18 años en el sector, nos hemos especializado en brindar asesoría en seguridad, higiene y medio ambiente. Actualmente, estamos trabajando en diversas industrias, especialmente en Oil & Gas, ingeniería y obras civiles.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -29,7 +29,7 @@ const Empresa = () => {
             <Card.Body id="cardBody">
               <Card.Title className='Card_Title'>Nuestros Servicios</Card.Title>
               <Card.Text>
-                Ofrecemos servicios de asesoramiento en sistemas de gestión, análisis de riesgo, matrices de riesgo y definición de KPI. Nos enfocamos en garantizar entornos de trabajo seguros y sustentables.
+                Ofrecemos servicios de HSE y medio ambiente, asesorando a nuestros clientes en sistemas de gestión, análisis de riesgo, matrices de riesgo, IPER, definición de KPI. Nos enfocamos en garantizar entornos de trabajo seguros y sustentables.
               </Card.Text>
             </Card.Body>
           </Card>
