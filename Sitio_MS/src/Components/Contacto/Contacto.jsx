@@ -1,11 +1,67 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Contacto.css';
 import '../../App.css';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { SiWhatsapp } from 'react-icons/si';
 import { Button } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
 
 const Contacto = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    });
+
+    const [error, setError] = useState('');
+    const [success, setSuccess] = useState('');
+
+    // Manejar cambios en los inputs
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    // Validar Email
+    const isValidEmail = (email) => {
+        return /\S+@\S+\.\S+/.test(email);
+    };
+
+    // Manejar envío del formulario
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        if (!formData.name || !formData.email || !formData.message) {
+            setError('Todos los campos son obligatorios.');
+            return;
+        }
+
+        if (!isValidEmail(formData.email)) {
+            setError('Ingresa un email válido.');
+            return;
+        }
+
+        setError('');
+
+        emailjs.send(
+            'service_ht6lfhg', // Reemplaza con tu Service ID de EmailJS
+            'template_28rd72l', // Reemplaza con tu Template ID de EmailJS
+            {
+                user_name: formData.name,
+                user_email: formData.email,
+                message: formData.message
+            },
+            'aQiJtmRCzePLbjh4x' // Reemplaza con tu Public Key de EmailJS
+        )
+            .then(() => {
+                setSuccess('Mensaje enviado correctamente.');
+                setFormData({ name: '', email: '', message: '' });
+            })
+            .catch(() => {
+                setError('Hubo un error al enviar el mensaje.');
+            });
+    };
+
+
     return (
         <section id="contacto" className="Contacto">
             <div className='Contacto-title'>
@@ -58,15 +114,16 @@ const Contacto = () => {
                     </div>
                 </div>
 
-                <form className='container_form' >
-                    <h3 className='title-form'>Mandanos tu consulta</h3>
+                <form className='container_form' onSubmit={handleSubmit} >
+                    <h3 className='title-form'>Envianos tu consulta</h3>
                     <div className="form-control">
 
                         <input
                             type="text"
                             name="name"
                             placeholder="Nombre"
-
+                            value={formData.name}
+                            onChange={handleChange}
                             required
                         />
                     </div>
@@ -76,7 +133,8 @@ const Contacto = () => {
                             type="email"
                             name="email"
                             placeholder="Email"
-
+                            value={formData.email}
+                            onChange={handleChange}
                             required
                         />
 
@@ -86,13 +144,18 @@ const Contacto = () => {
                             name="message"
                             rows="7"
                             placeholder="Mensaje"
-
+                            value={formData.message}
+                            onChange={handleChange}
                             required
                         >
 
                         </textarea>
 
                     </div>
+
+                    {error && <p className="error-message">{error}</p>}
+                    {success && <p className="success-message">{success}</p>}
+
                     <button type="submit" className="send" mailto="">Enviar</button>
 
                 </form></div>
