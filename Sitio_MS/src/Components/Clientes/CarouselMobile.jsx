@@ -28,9 +28,9 @@ function CarouselMobile() {
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img1} alt="Logo 1" />
                     <img id='img' className="d-block" src={img2} alt="Logo 2" />
-                    
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img3} alt="Logo 1" />
@@ -38,6 +38,7 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img5} alt="Logo 1" />
@@ -45,6 +46,7 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img7} alt="Logo 1" />
@@ -52,6 +54,7 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img9} alt="Logo 1" />
@@ -59,6 +62,7 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img11} alt="Logo 1" />
@@ -66,6 +70,7 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img13} alt="Logo 1" />
@@ -73,11 +78,11 @@ function CarouselMobile() {
                     
                 </div>
             </Carousel.Item>
+
             <Carousel.Item>
                 <div className="d-flex justify-content-around">
                     <img id='img' className="d-block" src={img15} alt="Logo 1" />
-                    <img id='img' className="d-block" src={img16} alt="Logo 2" />
-                    
+                    <img id='img' className="d-block" src={img16} alt="Logo 2" />    
                 </div>
             </Carousel.Item>
             <Carousel.Item>
