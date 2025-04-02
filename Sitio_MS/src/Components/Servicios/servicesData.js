@@ -25,7 +25,7 @@ const services = [
   { 
     logo: logo1,
     title: "Firma Responsable HSE",
-    description: "Firma certificada para la validación de documentación y el cumplimiento de los estándares HSE en proyectos y operaciones."
+    description: "Firma responsable legal para la validación de documentación y el cumplimiento de los estándares HSE en proyectos y operaciones."
   },
   { 
     logo: logo1,
@@ -37,21 +37,13 @@ const services = [
     title: "Confección de Sistemas de Gestión",
     description: "Diseño e implementación de sistemas de gestión HSE, adaptados a las necesidades específicas de cada empresa."
   },
-  { 
-    logo: logo1,
-    title: "Alquiler de Equipos para Altura y Espacio Confinado",
-    description: "Alquiler de equipos especializados para trabajos en altura y espacios confinados, garantizando la seguridad del personal."
-  },
+  
   { 
     logo: logo1,
     title: "Inspección de Líneas de Vida y Elementos de Altura",
     description: "Inspección técnica de líneas de vida y dispositivos de seguridad para trabajos en altura, asegurando su correcto funcionamiento."
   },
-  { 
-    logo: logo1,
-    title: "Montajes de Líneas de Vida",
-    description: "Instalación de sistemas de líneas de vida para trabajos en altura, brindando protección y seguridad a los trabajadores."
-  },
+
   { 
     logo: logo1,
     title: "Estudios Higiénicos y Medioambientales",
@@ -67,16 +59,7 @@ const services = [
     title: "Rescatistas y Equipos de Rescate",
     description: "Provisión de personal capacitado en rescate y equipos especializados para intervenir en emergencias en alturas o espacios confinados."
   },
-  { 
-    logo: logo1,
-    title: "Armado de Sistemas de Gestión HSE",
-    description: "Desarrollo de sistemas de gestión HSE personalizados para asegurar el cumplimiento de normativas y la mejora continua."
-  },
-  { 
-    logo: logo1,
-    title: "Programa de Obras",
-    description: "Asesoramiento y diseño de programas de seguridad para obras de construcción, garantizando la protección de los trabajadores en el sitio."
-  },
+    
   { 
     logo: logo1,
     title: "Licitaciones HSE",

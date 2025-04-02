@@ -12,7 +12,7 @@
     text-transform: uppercase;
 }
 
-.subtitle{
+.subtitle, .masServicios{
     color: var(--text-color-light);
     font-weight: 900;
     font-size: var(--font-size-medium);

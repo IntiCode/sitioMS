@@ -16,6 +16,10 @@ import img13 from '../../assets/clientes/psi.jpg';
 import img14 from '../../assets/clientes/bureau.png';
 import img15 from '../../assets/clientes/iram.png';
 import img16 from '../../assets/clientes/horizon.jpg';
+import img17 from '../../assets/clientes/gpservicios.jpg';
+import img18 from '../../assets/clientes/geopetrol.jpg';
+import img19 from '../../assets/clientes/concretar.jpg';
+import img20 from '../../assets/clientes/johnmphillips.png';
 
 function Carrousel() {
     return (
@@ -50,6 +54,14 @@ function Carrousel() {
                     <img id='img' className="d-block" src={img14} alt="Logo 2" />
                     <img id='img' className="d-block" src={img15} alt="Logo 3" />
                     <img id='img' className="d-block" src={img16} alt="Logo 3" />
+                </div>
+            </Carousel.Item>
+            <Carousel.Item>
+                <div className="d-flex justify-content-around">
+                    <img id='img' className="d-block" src={img17} alt="Logo 1" />
+                    <img id='img' className="d-block" src={img18} alt="Logo 2" />
+                    <img id='img' className="d-block" src={img19} alt="Logo 3" />
+                    <img id='img' className="d-block" src={img20} alt="Logo 3" />
                 </div>
             </Carousel.Item>
         </Carousel>

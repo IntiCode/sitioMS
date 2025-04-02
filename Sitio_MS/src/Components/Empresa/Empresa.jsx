@@ -9,7 +9,7 @@ const Empresa = () => {
       <Row className="text-center mb-4">
         <Col>
           <h1 className="display-4">SOBRE NOSOTROS</h1>
-          <p className="lead">Somos una empresa con más de 18 años de experiencia en la industria Oil & Gas, ingeniería y obras civiles.</p>
+          <p className="lead">Somos una empresa neuquina con más de 18 años de experiencia en la industria Oil & Gas, ingeniería y obras civiles.</p>
         </Col>
       </Row>
 
@@ -29,7 +29,7 @@ const Empresa = () => {
             <Card.Body id="cardBody">
               <Card.Title className='Card_Title'>Nuestros Servicios</Card.Title>
               <Card.Text>
-                Ofrecemos servicios de HSE y medio ambiente, asesorando a nuestros clientes en sistemas de gestión, análisis de riesgo, matrices de riesgo, IPER, definición de KPI. Nos enfocamos en garantizar entornos de trabajo seguros y sustentables.
+                Ofrecemos servicios de HSE y medio ambiente, asesorando a nuestros clientes en sistemas de gestión, análisis de riesgo, matriz de riesgo, IPER y KPI. Nos enfocamos en garantizar entornos de trabajo seguros y sustentables.
               </Card.Text>
             </Card.Body>
           </Card>

@@ -8,7 +8,7 @@ const Clientes = () => {
   return (
     <div id="clientes" className="Clientes">
       <h1 className="title-clientes" >Nuestros Clientes</h1>
-      <h3 className="subtitle-clientes">Algunas de las empresas que confían en nosotros</h3>
+      <h3 className="subtitle-clientes">Algunas de las empresas que han confiado en nosotros y en nuestros profesionales</h3>
       <div className='carouselDesk'>
         <Carousel />
       </div>
