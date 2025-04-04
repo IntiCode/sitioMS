@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import '../../App.css';
-import logo from '../../assets/hero/1logo.png';
+import logo from '../../assets/hero/logoblanc1.png';
 import Nav from './../Nav/Nav'
 import NavMobile from './../Nav/NavMobile'; // 
 import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";

@@ -30,6 +30,7 @@
     .subtitle-clientes{
         font-size: var(--font-size-medium);
         font-weight: 700;
+        padding: 2px 20px;
         
     }
     .carouselMobile{

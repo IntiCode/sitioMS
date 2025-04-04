@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css';
 import '../../App.css'
-import imagen from '../../assets/hero/MSRecurso 4logon4.png';
+import imagen from '../../assets/hero/logfooter3.png';
 import { FaInstagram, FaLinkedin, FaFacebookSquare } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
@@ -38,6 +38,7 @@ const Footer = () => {
 
             </div>
             <p className='footer-copyright'>Todos los derechos reservados &copy; 2025</p>
+            <p className='footer-copyright'>Desarrollado por IntiCode</p>
 
         </section>
     )

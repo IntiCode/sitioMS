@@ -32,14 +32,10 @@
 
 
 .footer-logo img {
-    width: 80px;
+    width: 100px;
     align-items: center;
 }
 
-.footer-logo p {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
 
 
 .footer-secciones  {
@@ -115,8 +111,12 @@
     
     .footer-secciones{
         flex-direction: column;
-        padding:2rem 0;
+        padding:2rem 0;    
         text-align: center;
+    }
+
+    .footer-secciones p{
+        padding: 0rem 0;
     }
     
 

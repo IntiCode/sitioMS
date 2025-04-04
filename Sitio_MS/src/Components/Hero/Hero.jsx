@@ -2,7 +2,7 @@ import React from 'react';
 import './Hero.css';
 import '../../App.css'
 import { Button } from 'react-bootstrap';
-import logoHero from '../../assets/hero/1logo.png';
+import logoHero from '../../assets/hero/logoblanc1.png';
 import { Link } from 'react-scroll';
 
 const Hero = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
             <div className='Hero_container'>
                 
                 <div className='Hero_logo'>
-                    <img className='heroImg' src={logoHero} alt="logo" width="250" />
+                    <img className='heroImg' src={logoHero} alt="logo" width="200" />
                 </div>
                 
                 <div className="Hero_buttons d-flex gap-2 mb-2">
