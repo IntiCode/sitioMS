@@ -76,6 +76,7 @@ const Contacto = () => {
                     <MdOutlineMailOutline className="contact-icon" />
                     <h4 className='contacto-title'>Email</h4>
                     <h5>msnqn.seguridad@gmail.com</h5>
+                    <h5>msnqn.admi@gmail.com</h5>
                     <a href="" target="_blank" rel="noopener noreferrer">Envía un mensaje</a>
                 </article>
 
