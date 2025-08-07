@@ -110,3 +110,28 @@
         text-align: center;
     }
 }
+
+.compre-title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.compre-text {
+    font-size: var(--font-size-medium);
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.compre-neuquino-img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.compre-text {
+    text-align: center !important;
+}

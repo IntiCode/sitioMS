@@ -10,6 +10,7 @@ const Empresa = () => {
         <Col>
           <h1 className="display-4">SOBRE NOSOTROS</h1>
           <p className="lead">Somos una empresa neuquina con más de 18 años de experiencia en la industria Oil & Gas, ingeniería y obras civiles.</p>
+        
         </Col>
       </Row>
 
@@ -48,6 +49,26 @@ const Empresa = () => {
           </Card>
         </Col>
       </Row>
+
+      <Row className="mb-4">
+  <Col>
+    <Card>
+      <Card.Body id="cardBody" className="text-center">
+        <Card.Title className="compre-title">
+          Compre Neuquino
+        </Card.Title>
+        <Card.Text className="compre-text">
+          Somos una empresa certificada bajo la ley provincial 3338 - Compre Neuquino
+        </Card.Text>
+        <img
+          src="src\assets\hero\compreneuquino.png"
+          alt="Compre Neuquino"
+          className="compre-neuquino-img"
+        />
+      </Card.Body>
+    </Card>
+  </Col>
+</Row>
 
       
     </Container>
