@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import './Empresa.css'; 
-import compreNeuquinoImg from '../../assets/hero/compreneuquino.png';
+import compreneuquino from '../../assets/hero/compreneuquino.png';
 
 const Empresa = () => {
   return (
@@ -62,7 +62,7 @@ const Empresa = () => {
           Somos una empresa certificada bajo la ley provincial 3338 - Compre Neuquino
         </Card.Text>
         <img
-          src={compreNeuquinoImg}
+          src={compreneuquino}
           alt="Compre Neuquino"
           className="compre-neuquino-img"
         />
